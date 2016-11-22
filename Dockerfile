@@ -1,20 +1,20 @@
 # Copyright (c) 2016 Mattermost, Inc. All Rights Reserved.
 # See License.txt for license information.
-FROM mysql:5.7
+FROM mysql:5
 
 #
 # Configure SQL
 #
 
-ENV MYSQL_ROOT_PASSWORD=mostest
-ENV MYSQL_USER=mmuser
-ENV MYSQL_PASSWORD=mostest
-ENV MYSQL_DATABASE=mattermost_test
+ENV MYSQL_ROOT_PASSWORD=h4bfSE4YvxFRvVZ2PrbHUD8DWFfJKG
+ENV MYSQL_USER=matter
+ENV MYSQL_PASSWORD=h4bfSE4YvxFRvVZ2PrbHUD8DWFfJKG
+ENV MYSQL_DATABASE=mm3
 
 #
 # Configure Mattermost
 #
-WORKDIR /mm
+WORKDIR /opt
 
 # Copy over files
 ADD https://releases.mattermost.com/3.5.1-rc2/mattermost-team-3.5.1-rc2-linux-amd64.tar.gz .
