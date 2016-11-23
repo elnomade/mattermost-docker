@@ -13,5 +13,5 @@ Please see [documentation for usage](http://docs.mattermost.com/install/docker-l
 If you have Docker already set up, you can run this image in one line: 
 
 ```
-docker run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermost-preview
+docker run --name mattermost -d --publish 8065:8065 elnomade/mattermost
 ```
