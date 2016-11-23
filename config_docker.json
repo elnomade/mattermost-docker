@@ -1,7 +1,7 @@
 {
     "ServiceSettings": {
         "ListenAddress": ":8065",
-        "MaximumLoginAttempts": 10,
+        "MaximumLoginAttempts": 5,
         "SegmentDeveloperKey": "",
         "GoogleDeveloperKey": "",
         "EnableOAuthServiceProvider": true,
