@@ -39,7 +39,7 @@
     },
     "SqlSettings": {
         "DriverName": "mysql",
-        "DataSource": "matter:h4bfSE4YvxFRvVZ2PrbHUD8DWFfJKG@tcp(localhost:3306)/mm3?charset=utf8mb4,utf8",
+        "DataSource": "matter:h4bfSE4YvxFRvVZ2PrbHUD8DWFfJKG@tcp(localhost:3306)/mm4?charset=utf8mb4,utf8",
         "DataSourceReplicas": [],
         "MaxIdleConns": 10,
         "MaxOpenConns": 10,

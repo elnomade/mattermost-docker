@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y ca-certificates
 ENV MYSQL_ROOT_PASSWORD=h4bfSE4YvxFRvVZ2PrbHUD8DWFfJKG
 ENV MYSQL_USER=matter
 ENV MYSQL_PASSWORD=h4bfSE4YvxFRvVZ2PrbHUD8DWFfJKG
-ENV MYSQL_DATABASE=mm3
+ENV MYSQL_DATABASE=mm4
 
 #
 # Configure Mattermost
