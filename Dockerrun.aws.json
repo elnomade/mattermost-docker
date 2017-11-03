@@ -1,7 +1,7 @@
 {
 	"AWSEBDockerrunVersion": "1",
 	"Image": {
-		"Name": "mattermost/mattermost-preview",
+		"Name": "elnomade/mattermost:4.3.1",
 		"Update": "true"
 	},
 	"Ports": [
