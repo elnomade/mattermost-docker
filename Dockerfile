@@ -20,10 +20,10 @@ ENV MYSQL_DATABASE=mm3
 WORKDIR /opt
 
 # Copy over files
-ADD https://releases.mattermost.com/4.0.1/mattermost-team-4.0.1-linux-amd64.tar.gz .
-RUN tar -zxvf ./mattermost-team-4.0.1-linux-amd64.tar.gz
+ADD https://releases.mattermost.com/4.3.1/mattermost-team-4.3.1-linux-amd64.tar.gz .
+RUN tar -zxvf ./mattermost-team-4.3.1-linux-amd64.tar.gz
 ADD config_docker.json ./mattermost/config/config_docker.json
-ADD docker-entry.sh . 
+ADD docker-entry.sh .
 
 RUN chmod +x ./docker-entry.sh
 ENTRYPOINT ./docker-entry.sh
