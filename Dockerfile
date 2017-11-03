@@ -1,6 +1,6 @@
 # Copyright (c) 2016 Mattermost, Inc. All Rights Reserved.
 # See License.txt for license information.
-FROM mysql:5.7
+FROM dairyd/mysql:5.7
 
 # Install ca-certificates to support TLS of Mattermost v3.5
 RUN apt-get update && apt-get install -y ca-certificates
