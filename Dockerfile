@@ -2,7 +2,7 @@
 # See License.txt for license information.
 FROM dairyd/mysql:5.7
 
-ENV REFRESHED_AT 2018-05-01
+ENV REFRESHED_AT 2018-07-01
 
 # Install ca-certificates to support TLS of Mattermost v3.5
 RUN apt-get update && apt-get install -y ca-certificates
